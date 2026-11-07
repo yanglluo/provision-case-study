@@ -19,9 +19,9 @@ The engineering challenge is preserving trust when food identification, source d
     <th>Improve</th>
   </tr>
   <tr>
-    <td><img src="screenshots-today.png" width="245" alt="Today screen showing one QA meal, recorded protein and fiber, and unset targets"></td>
-    <td><img src="screenshots-explore.png" width="245" alt="Explore screen with meal, food and brand entry modes and a recoverable banana review draft"></td>
-    <td><img src="screenshots-improve.png" width="245" alt="Improve screen showing an unchecked banana ingredient, USDA source identity and a 100 gram source basis"></td>
+    <td><img src="screenshots-today.png" width="245" alt="Today screen with no meals on the selected day, unknown nutrient amounts, unset targets and a resumable review"></td>
+    <td><img src="screenshots-explore.png" width="245" alt="Explore screen with meal, food and brand entry modes and a recoverable rice and bean bowl draft"></td>
+    <td><img src="screenshots-improve.png" width="245" alt="Improve screen showing an unchecked rice ingredient, USDA source identity, a 100 gram source basis and a 150 gram portion"></td>
   </tr>
 </table>
 
@@ -31,7 +31,7 @@ The engineering challenge is preserving trust when food identification, source d
     <th>Insights</th>
   </tr>
   <tr>
-    <td><img src="screenshots-journal.png" width="245" alt="Journal screen with a synthetic rice and bean bowl and recorded nutrient contributions"></td>
+    <td><img src="screenshots-journal.png" width="245" alt="Journal screen with an empty selected day, access to saved history and an on-device storage explanation"></td>
     <td><img src="screenshots-insights.png" width="245" alt="Insights screen showing a seven day window, one confirmed QA meal and one recorded day"></td>
   </tr>
 </table>
@@ -49,7 +49,7 @@ Provision makes the review step part of the product:
 3. **Confirm:** turn the reviewed draft into a saved meal through an explicit action. Looking at an example or editing a draft does not log food.
 4. **Understand:** view contributions for the recorded day and summaries over recorded periods, with missing data still visible.
 
-The two sample meals shown across the captures illustrate different states: a saved reference bowl and a separate unfinished banana draft. They are not a before/after nutrition outcome.
+The captures illustrate different record states: an unfinished reference-bowl review, an empty selected day, and a saved meal from an earlier day in the Insights period. They are not a before/after nutrition outcome.
 
 ## Engineering decisions worth discussing
 
