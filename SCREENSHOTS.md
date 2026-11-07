@@ -2,16 +2,16 @@
 
 [Back to the case study](README.md)
 
-These are original simulator captures of Provision's normal-entry native Release build, version **1.1 / build 36**, captured on **November 2, 2026** using an **iPhone 17 Pro Max simulator, iOS 26.4.1**. The capture record identifies QA-only meals and drafts. The screens were visually inspected before inclusion here.
+These are original simulator captures of Provision's normal-entry native Release build, version **1.1 / build 36**, captured on **November 2, 2026** using an **iPhone 17 Pro Max simulator, iOS 26.4.1**. The capture record identifies QA-only meals and drafts. The included PNGs were visually inspected and hash-verified.
 
-The captures show a dated implementation. They are not generated mockups, physical-device evidence, a release-approval record, a clinical evaluation, or examples of a real person's diet. The unfinished banana draft is separate from the saved reference rice-and-bean bowl.
+The captures show a dated implementation. They are not generated mockups, physical-device evidence, a release-approval record, a clinical evaluation, or examples of a real person's diet. The unfinished rice-and-bean review is separate from the confirmed record shown in Insights. Today and Journal display an empty November 2; Insights includes a saved October 30 reference meal within its seven-day window.
 
 | Screen | What it demonstrates | Full-size capture |
 | --- | --- | --- |
-| Today | A recorded day, known nutrient contributions, unset targets, and a resumable review | [Open](screenshots-today.png) |
+| Today | An empty selected day, unknown nutrient amounts, unset targets, and a resumable review | [Open](screenshots-today.png) |
 | Explore | Meal/food/brand entry modes, remote-processing disclosure, and a draft entry point | [Open](screenshots-explore.png) |
-| Improve | Ingredient review, source identity, preparation, and a stated 100 g basis | [Open](screenshots-improve.png) |
-| Journal | Confirmed records, recorded contributions, and a review/reuse action | [Open](screenshots-journal.png) |
+| Improve | Reference-bowl ingredient review, cooked-rice source identity, a 100 g basis, and a 150 g portion | [Open](screenshots-improve.png) |
+| Journal | A date-scoped empty state with access to saved history and backup/restore tools | [Open](screenshots-journal.png) |
 | Insights | A recorded-period summary that distinguishes confirmed meals from days with records | [Open](screenshots-insights.png) |
 
 ## Asset integrity
